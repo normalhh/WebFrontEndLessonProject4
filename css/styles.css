@@ -1,0 +1,70 @@
+/* * {
+	border: 1px solid red!important;
+}
+
+* {
+	-webkit-box-sizing:  border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+} */
+
+/* 媒体查询 300px以下宽度的时候 */
+@media only screen and (max-width: 300px) {
+
+}
+
+/* 媒体查询 750px以下宽度的时候 */
+@media only screen and (max-width: 750px) {
+
+}
+
+/* 媒体查询 960px以下宽度的时候 */
+@media only screen and (max-width: 960px) {
+
+}
+
+.box-model {
+	display: flex;
+	display: -webkit-flex;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #2d3c49;
+	font-weight: 300;
+}
+
+.text-muted {
+	color: #7d97ad;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-bar {
+	position: relative;
+	display: flex;
+    justify-content: center;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.logo-container {
+	align-self: center;
+}
+
+.title-logo {
+	max-height: 100%;
+	margin: auto;
+}
+
+.divider {
+	background-color: #7d97ad;
+	height: 5px;
+}
+
+
